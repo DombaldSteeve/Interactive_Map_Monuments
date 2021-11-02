@@ -8,8 +8,8 @@ body {
 }
 
 #plan {
-    width: 800px;
-    height: 600px;
+    width: 700px;
+    height: 500px;
     border: 5px solid #43cea2;
     border-radius: 20px;
 }
@@ -20,10 +20,22 @@ body {
     padding-top: 50px;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    
+}
+
 h1 {
-    padding-left: 35%;
+    padding-left: 32%;
     color: antiquewhite;
     font-family: 'Zen Old Mincho', serif;
     letter-spacing: 3px;
     text-decoration: underline;
+    padding-right: 100px;
+}
+
+img {
+    width: 10%;
 }
